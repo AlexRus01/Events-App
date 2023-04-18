@@ -1,7 +1,7 @@
 using Events_App.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-// test
+// test commit Patri 2
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
