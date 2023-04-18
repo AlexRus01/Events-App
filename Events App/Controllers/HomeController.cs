@@ -4,6 +4,7 @@ using System.Diagnostics;
 
 namespace Events_App.Controllers
 {
+    //comentariiii
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
