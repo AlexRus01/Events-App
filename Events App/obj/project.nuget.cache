@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K3fz/jrBfzL7Yl+1ZpZZIBot26allUHF8QhPY7wldwsHqrua98ifuimX6qghuN8ZTUZ7F3lsVQ/CTRtxUucggw==",
+  "dgSpecHash": "bMhWjcA1Drh50XicaZNw0KiEbSpvV5P7HZVAExbJl2qIHFOrgemlaEJ8XhhDIF0W3clK6KVdtoRD9IqoS9OIqQ==",
   "success": true,
-  "projectFilePath": "D:\\University\\AN II\\SEM 2\\METODE DEZVOLTARE SOFTWARE\\Events App\\Events App.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Source\\Repos\\Events-App\\Events App\\Events App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.10\\microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",
