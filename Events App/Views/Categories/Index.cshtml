@@ -1,0 +1,23 @@
+﻿<h2 style="font-family: Courier, Monospace; color: #2AA5FF; font-weight: bold; font-style: italic">Styles available</h2>
+
+
+@foreach (var item in ViewBag.Categories)
+{
+
+    <p class="st">@item.CategoryId <b>@item.CategoryName</b></p>
+    <a class="btn btn-outline-primary" href="/Categories/Edit/@item.CategoryId">Edit Category</a>
+    <a class="btn btn-outline-danger" href="/Categories/Delete/@item.CategoryId">Delete Delete Category</a>
+    <br />
+    <br />
+
+}
+<a class="btn btn-success" href="/Categories/New">Add a new Category</a>
+<a class="btn btn-info" href="/Categories/Index">Home</a>
+
+
+<style>
+    .st {
+        font-style: italic;
+        font-size: 18px;
+    }
+</style>
