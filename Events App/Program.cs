@@ -1,7 +1,7 @@
 using Events_App.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
+// test
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
