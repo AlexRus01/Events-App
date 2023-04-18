@@ -2,6 +2,7 @@ using Events_App.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 // test commit Patri 2
+// Test commit alex 2
 var builder = WebApplication.CreateBuilder(args);
 
 
