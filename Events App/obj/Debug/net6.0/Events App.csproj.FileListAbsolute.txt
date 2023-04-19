@@ -190,3 +190,94 @@ C:\Users\Alex\source\repos\Events-App\PROIECT\Events App\obj\Debug\net6.0\refint
 C:\Users\Alex\source\repos\Events-App\PROIECT\Events App\obj\Debug\net6.0\Events App.pdb
 C:\Users\Alex\source\repos\Events-App\PROIECT\Events App\obj\Debug\net6.0\Events App.genruntimeconfig.cache
 C:\Users\Alex\source\repos\Events-App\PROIECT\Events App\obj\Debug\net6.0\ref\Events App.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\appsettings.Development.json
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\appsettings.json
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Events App.staticwebassets.runtime.json
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Events App.exe
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Events App.deps.json
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Events App.runtimeconfig.json
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Events App.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Events App.pdb
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Azure.Core.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Azure.Identity.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Humanizer.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\System.CodeDom.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\System.Memory.Data.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\System.Text.Json.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.csproj.AssemblyReference.cache
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.GeneratedMSBuildEditorConfig.editorconfig
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.AssemblyInfoInputs.cache
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.AssemblyInfo.cs
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.csproj.CoreCompileInputs.cache
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.MvcApplicationPartsAssemblyInfo.cs
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.MvcApplicationPartsAssemblyInfo.cache
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.RazorAssemblyInfo.cache
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.RazorAssemblyInfo.cs
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\staticwebassets.build.json
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\staticwebassets.development.json
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\scopedcss\bundle\Events App.styles.css
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\scopedcss\projectbundle\Events App.bundle.scp.css
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.csproj.CopyComplete
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\refint\Events App.dll
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.pdb
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\Events App.genruntimeconfig.cache
+D:\info\Anul2\SEM2\mds\Events-App\Events App\obj\Debug\net6.0\ref\Events App.dll

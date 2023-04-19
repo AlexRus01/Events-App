@@ -1,9 +1,12 @@
 ﻿using Events_App.Data;
 using Events_App.Migrations;
 using Events_App.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using System;
+using System.Xml.Linq;
 
 namespace Events_App.Controllers
 {
@@ -86,28 +89,48 @@ namespace Events_App.Controllers
         }
         public ActionResult Edit(int id)
         {
-            Event ev = db.Events.Find(id);
-            ViewBag.Event = ev;
-            return View();
+            Event ev = db.Events.Include("Category")
+                .Where(sub => sub.EventId == id)
+                                        .First();
+            ev.Categ = GetAllCategories();
+
+          
+                return View(ev);
+           
         }
 
+
+ 
         [HttpPost]
 
         public ActionResult Edit(int id, Event ev)
         {
-            try
+            Event ev2 = db.Events.Find(id);
+
+            if (ModelState.IsValid)
             {
-                Event ev2 = db.Events.Find(id);
-                {
+             
                     ev2.Title = ev.Title;
+                    ev2.Description = ev.Description;
+                    ev2.CategoryId = ev.CategoryId;
+                    ev2.Location = ev.Location;
+                    ev2.Date = ev.Date;
+                    TempData["message"] = "Evenimentul a fost modificat!";
                     db.SaveChanges();
-                }
+               
                 return RedirectToAction("Index");
             }
-            catch (Exception)
+
+            else
             {
-                return RedirectToAction("Edit");
+                ev.Categ = GetAllCategories();
+                return View(ev);
             }
+            
+                
+                
+            
+            
         }
 
         public ActionResult Delete(int id)
