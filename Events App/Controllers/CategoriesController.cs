@@ -20,6 +20,7 @@ namespace Events_App.Controllers
             return View();
         }
 
+
         public ActionResult New()
         {
             return View();

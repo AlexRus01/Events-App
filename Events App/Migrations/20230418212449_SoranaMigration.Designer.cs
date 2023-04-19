@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Events_App.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230418115931_FirstMigration")]
-    partial class FirstMigration
+    [Migration("20230418212449_SoranaMigration")]
+    partial class SoranaMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,7 +1,8 @@
 ﻿using Events_App.Models;
+using Events_App.Data;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
+using System.Data;
 namespace Events_App.Data
 {
     public class ApplicationDbContext : IdentityDbContext

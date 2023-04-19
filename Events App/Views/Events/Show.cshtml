@@ -1,0 +1,160 @@
+﻿@model Events_App.Models.Event
+<body>
+
+<head>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+</head>
+<style>
+    .bolded {
+        font-weight: bold;
+    }</style>
+    @* Afisarea unui eveniment impreuna cu categoria din care face *@
+
+    @if (TempData["message"] != null)
+    {
+        <div class="alert @TempData["messageType"]">
+            @TempData["message"]
+        </div>
+    }
+
+<br />
+
+<div class="card-body">
+
+    <h3 class="card-title alert-danger py-3 px-3 rounded-2 bolded ">@Model.Title</h3>
+
+    <h5 class="card-text alert-danger py-3 px-3 rounded-2">@Model.Description</h5>
+
+    <div class="d-flex justify-content-between flex-row mt-5">
+
+
+
+            @* @if (ViewBag.AfisareButoane == true && Model.UserId == ViewBag.UserCurent || ViewBag.EsteAdmin)
+        {*@
+        <div class="d-flex flex-row justify-content-between p-3 ">
+            <a href="/Categories/Show/@Model.Category.CategoryId" <i class="bi bi-globe"></i> @Model.Category.CategoryName</a>
+            <p>&nbsp;</p> &nbsp;</p>&nbsp;</p> &nbsp;</p>
+            <span <i class="bi bi-calendar-date"></i>&nbsp;@Model.Date</span>
+            <span <i ></i>&nbsp;@Model.Location</span>
+        </div>
+        <div class="d-flex flex-row justify-content-between p-3 ">
+                <a class="btn btn-info" href="/Events/Edit/@Model.EventId">Editeaza event</a>
+
+                <form method="post" action="/Events/Delete/@Model.EventId">
+
+                    <button class="btn btn-danger bi bi-trash" type="submit">Sterge subiect</button>
+
+
+            </form>
+        </div>
+
+
+            @*}*@
+
+
+
+    </div>
+
+</div>
+
+
+
+
+<br />
+<br />
+
+    @* Afisare comentarii impreuna cu butoanele de editare si stergere *@
+
+    @foreach (var comm in Model.Comments)
+    {
+        <div class="container">
+            <div class="row">
+
+
+                <div>
+
+                    <p class="card-text alert-danger py-3 px-3 rounded-2 bolded">@comm.Content</p>
+                    <small><i class="bi bi-calendar-date"></i>@comm.Date</small>
+                    @*@<strong><i class="bi bi-person"></i>@comm.User.UserName</strong>*@
+
+                </div>
+
+
+
+                @* @if (comm.UserId == ViewBag.UserCurent || ViewBag.EsteAdmin) *@
+                @*{*@
+
+                <div class="d-flex">
+
+                    <div>
+
+                            <a class="btn btn-info btn-sm" href="/Comments/Edit/@comm.CommentId"><i class="bi bi-pencil-square"></i>Editeaza</a>
+
+                    </div>
+
+                    <div>
+
+                        <form method="post" action="/Comments/Delete/@comm.CommentId">
+
+                            <button class="btn btn-info btn-sm" type="submit"><i class="bi bi-trash"></i>Sterge</button>
+
+                        </form>
+
+                    </div>
+                    <br /><br /><br /><br /><br />
+                </div>
+                @*}*@
+
+                <br />
+
+
+
+                <div class="col-md-2"></div>
+
+            </div>
+
+        </div>
+    }
+
+
+    @* Afisarea formularului in care se poate adauga un comentariu *@
+
+<div class="container">
+
+    <div class="row">
+
+
+
+            <form method="post" action="/Events/Show/@Model.EventId">
+
+            <div class="card-body">
+
+                    <input type="hidden" name="EventId" value="@Model.EventId" />
+
+                <label>Continut comentariu</label>
+                <br />
+
+                    <textarea class="form-control card-text alert-danger" name="Content"></textarea>
+
+                    @Html.ValidationMessage("Content", null, new { @class = "text-danger"})
+
+                <br />
+
+                    <button class="btn btn-info" type="submit">Adauga comentariul</button>
+                <br /><br /><br /><br />
+            </div>
+
+        </form>
+
+
+
+    </div>
+
+</div>
+<</body>

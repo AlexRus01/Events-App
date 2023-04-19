@@ -12,6 +12,11 @@
       "type": "mssql",
       "connectionId": "ConnectionStrings:dada",
       "dynamicId": null
+    },
+    "mssql4": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:SORANADB",
+      "dynamicId": null
     }
   }
 }

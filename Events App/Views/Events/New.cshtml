@@ -1,0 +1,76 @@
+﻿<body>
+    @model Events_App.Models.Event
+
+
+    <h2 class="text-center mt-5">Adaugare eveniment</h2>
+    <br />
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6 offset-3">
+
+                @using (Html.BeginForm(actionName: "New", controllerName: "Events",
+                method: FormMethod.Post))
+                {
+
+                    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+                    @Html.Label("Title", "Titlu Eveniment")
+                    <br />
+                    @Html.TextBox("Title", null, new { @class = "form-control" })
+
+                    @Html.ValidationMessageFor(m => m.Title, "", new { @class = "text-danger" })
+                    <br />
+
+                    <br />
+
+                    @Html.Label("Description", "Descrierea Evenimentului")
+                    <br />
+                    @Html.TextArea("Description", null, new { @class = "form-control" })
+
+                    @Html.ValidationMessage("Description", null, new { @class = "text-danger" })
+                    <br />
+
+                    <label>Selectati categorria</label>
+                    @Html.DropDownListFor(m => m.CategoryId, new SelectList(Model.Categ, "Value", "Text"),
+                    "Selectati Categoria", new { @class = "form-control" })
+
+                    @Html.ValidationMessageFor(m => m.CategoryId, null, new { @class = "text-danger" })
+                    <br />
+
+                    <br />
+
+                    @Html.Label("Location", "Locatia Evenimentului")
+                    <br />
+                    @Html.TextArea("Location", null, new { @class = "form-control" })
+
+                    @Html.ValidationMessage("Location", null, new { @class = "text-danger" })
+                    <br />
+
+                         <br />
+
+                    @Html.Label("Date", "Data Evenimentului")
+                    <br />
+                    @Html.TextBoxFor(model => model.Date,
+                                    new { @type = "date", @Value = Model.Date.ToString("yyyy-MM-dd"), @class = "form-control" })
+                 
+
+                    @Html.ValidationMessage("Date", null, new { @class = "text-danger" })
+                        <br />
+
+                    <br />
+
+                    <button class="btn btn-info" type="submit">Adauga event</button>
+
+                }
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+
+
+
+
