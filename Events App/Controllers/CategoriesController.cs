@@ -1,6 +1,7 @@
 ﻿using Events_App.Data;
 using Events_App.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 
 namespace Events_App.Controllers
@@ -18,6 +19,14 @@ namespace Events_App.Controllers
             var categories = db.Categories;
             ViewBag.Categories = categories;
             return View();
+        }
+
+        public ActionResult Show(int id)
+        {
+            Category category = db.Categories.Include("Events")
+                               .Where(cat => cat.CategoryId == id)
+                               .First();
+            return View(category);
         }
 
 

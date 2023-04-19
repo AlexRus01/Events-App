@@ -1,0 +1,31 @@
+﻿@model Events_App.Models.Comment
+<body style="background-color:#ea99c0;">
+
+    @{
+        ViewBag.Title = "Edit";
+    }
+
+    <h2>Editare comentariu</h2>
+    <br />
+
+
+    @using (Html.BeginForm(controllerName: "Comments", actionName: "Edit",
+    method: FormMethod.Post, routeValues: new { id = Model.CommentId }))
+
+    {
+        @Html.Label("Content", "Continut comentariu")
+
+        <br />
+
+        @Html.Editor("Content", new { @class = "form-control" })
+        <br />
+
+        @Html.ValidationMessage("Content", null, new { @class = "text-danger" })
+
+        <br />
+        <br />
+
+        <button class="btn btn-secondary" type="submit">Editeaza comentariul</button>
+
+    }
+</body>

@@ -26,40 +26,40 @@ namespace Events_App.Controllers
             return View();
         }
 
-        //public IActionResult Show(int id)
-        //{
-        //    Event ev = db.Events.Include("Categories")
-        //                        .Include("Comments")
-        //                        .Where(ev => ev.EventId == id)
-        //                        .First();
-        //    return View(ev);
-        //}
+        public IActionResult Show(int id)
+        {
+            Event ev = db.Events.Include("Category")
+                                .Include("Comments")
+                                .Where(ev => ev.EventId == id)
+                                .First();
+            return View(ev);
+        }
 
-        //[HttpPost]
-        //public IActionResult Show([FromForm] Comment comment)
-        //{
-        //    comment.Date = DateTime.Now;
-        //    comment.UserId = _userManager.GetUserId(User);
-        //    if (ModelState.IsValid)
-        //    {
-        //        db.Comments.Add(comment);
-        //        db.SaveChanges();
-        //        return Redirect("/Subjects/Show/" + comment.SubjectId);
-        //    }
+        [HttpPost]
+        public IActionResult Show([FromForm] Comment comment)
+        {
+            comment.Date = DateTime.Now;
+            //comment.UserId = _userManager.GetUserId(User);
+            if (ModelState.IsValid)
+            {
+                db.Comments.Add(comment);
+                db.SaveChanges();
+                return Redirect("/Events/Show/" + comment.EventId);
+            }
 
-        //    else
-        //    {
-        //        Subject sub = db.Subjects.Include("Category")
-        //                                 .Include("Comments")
-        //                                 .Where(sub => sub.SubjectId == comment.SubjectId)
-        //                                 .First();
+            else
+            {
+                Event sub = db.Events.Include("Category")
+                                         .Include("Comments")
+                                         .Where(sub => sub.EventId == comment.EventId)
+                                         .First();
 
-        //        //return Redirect("/Articles/Show/" + comm.ArticleId);
+                //return Redirect("/Articles/Show/" + comm.ArticleId);
 
 
-        //        return View(sub);
-        //    }
-        //}
+                return View(sub);
+            }
+        }
 
         public IActionResult New()
         {

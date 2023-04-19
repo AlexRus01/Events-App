@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\info\\Anul2\\SEM2\\mds\\Events-App\\Events App\\Events App.csproj": {}
+    "C:\\Users\\DARIA\\source\\repos\\MDS\\Events-App\\Events App\\Events App.csproj": {}
   },
   "projects": {
-    "D:\\info\\Anul2\\SEM2\\mds\\Events-App\\Events App\\Events App.csproj": {
+    "C:\\Users\\DARIA\\source\\repos\\MDS\\Events-App\\Events App\\Events App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\info\\Anul2\\SEM2\\mds\\Events-App\\Events App\\Events App.csproj",
+        "projectUniqueName": "C:\\Users\\DARIA\\source\\repos\\MDS\\Events-App\\Events App\\Events App.csproj",
         "projectName": "Events App",
-        "projectPath": "D:\\info\\Anul2\\SEM2\\mds\\Events-App\\Events App\\Events App.csproj",
+        "projectPath": "C:\\Users\\DARIA\\source\\repos\\MDS\\Events-App\\Events App\\Events App.csproj",
         "packagesPath": "C:\\Users\\DARIA\\.nuget\\packages\\",
-        "outputPath": "D:\\info\\Anul2\\SEM2\\mds\\Events-App\\Events App\\obj\\",
+        "outputPath": "C:\\Users\\DARIA\\source\\repos\\MDS\\Events-App\\Events App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

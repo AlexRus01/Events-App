@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dkC3WuP8OFKkxawjtnBB3nIJm6693PIjL3z9vs+MjhYZHkEwAau/RqCKud9M+3vF+IdwNiAUwOJuLz3E21qrxQ==",
+  "dgSpecHash": "Oaeqrfi8tC5T26Qz6u0Gtr4XkdX6WBb5mO6zuhNPAbpDfrypfUKL5b4wqBHXKAt8cuvs/xL4p6gOa6gIpE9Mmg==",
   "success": true,
-  "projectFilePath": "D:\\info\\Anul2\\SEM2\\mds\\Events-App\\Events App\\Events App.csproj",
+  "projectFilePath": "C:\\Users\\DARIA\\source\\repos\\MDS\\Events-App\\Events App\\Events App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DARIA\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DARIA\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

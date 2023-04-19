@@ -1,0 +1,69 @@
+﻿@model Events_App.Models.Category
+<body>
+
+    <head>
+
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+
+        <!-- Bootstrap Font Icon CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    </head>
+
+    @{
+        ViewBag.Title = "Afisare categorie";
+    }
+
+
+    <h5 class="d-flex justify-content-center flex-row mt-5">@ViewBag.Title</h5>
+
+    <br />
+
+    <h2 class="d-flex justify-content-center flex-row mt-5">@Model.CategoryName</h2>
+
+    <div class="d-flex justify-content-center flex-row mt-5">
+
+        <form method="post" action="/Categories/Delete/@Model.CategoryId">
+
+            <button class="btn btn-secondary" type="submit">Sterge categoria</button>
+
+        </form>
+        <a class="btn btn-secondary" href="/Categories/Index/">Afisare lista categorii</a>
+
+    </div>
+
+
+
+    <br />
+    <hr />
+    <br />
+
+    @foreach (Events_App.Models.Event ev in Model.Events)
+    {
+
+        {
+            <div class="card-body">
+
+                <h3 class="card-title alert-secondary py-3 px-3 rounded-2">@ev.Title</h3>
+
+                <div class="card-text">  @ev.Description</div>
+                <div class="d-flex flex-row justify-content-between p-3 ">
+
+
+                    <span><i class="bi bi-calendar-date"> </i>  @ev.Date</span>
+                    <span><i class="bi bi-geo-alt-fill"> </i>  @ev.Location</span>
+                    <a class="btn btn-secondary bi bi-pencil-square" href="/Events/Edit/@ev.EventId">Editeaza eveniment</a>
+                    <a class="btn btn-secondary" href="/Events/Show/@ev.EventId">Afisare event</a>
+                </div>
+
+
+            </div>
+        }
+
+
+
+        <br />
+        <br />
+    }
+</body>

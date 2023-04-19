@@ -27,9 +27,9 @@
 
 <div class="card-body">
 
-    <h3 class="card-title alert-danger py-3 px-3 rounded-2 bolded ">@Model.Title</h3>
+    <h3 class="card-title alert-secondary py-3 px-3 rounded-2 bolded ">@Model.Title</h3>
 
-    <h5 class="card-text alert-danger py-3 px-3 rounded-2">@Model.Description</h5>
+        <h5 class="card-text alert-secondary py-3 px-3 rounded-2">@Model.Description</h5>
 
     <div class="d-flex justify-content-between flex-row mt-5">
 
@@ -79,7 +79,7 @@
 
                 <div>
 
-                    <p class="card-text alert-danger py-3 px-3 rounded-2 bolded">@comm.Content</p>
+                    <p class="card-text alert-secondary py-3 px-3 rounded-2 bolded">@comm.Content</p>
                     <small><i class="bi bi-calendar-date"></i>@comm.Date</small>
                     @*@<strong><i class="bi bi-person"></i>@comm.User.UserName</strong>*@
 
@@ -140,9 +140,9 @@
                 <label>Continut comentariu</label>
                 <br />
 
-                    <textarea class="form-control card-text alert-danger" name="Content"></textarea>
+                    <textarea class="form-control card-text alert-secondary" name="Content"></textarea>
 
-                    @Html.ValidationMessage("Content", null, new { @class = "text-danger"})
+                    @Html.ValidationMessage("Content", null, new { @class = "text-secondary"})
 
                 <br />
 

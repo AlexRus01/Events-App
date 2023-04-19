@@ -4,7 +4,8 @@
 @foreach (var item in ViewBag.Categories)
 {
 
-    <p class="st">@item.CategoryId <b>@item.CategoryName</b></p>
+
+    <a class="st" href="Categories/Show/@item.CategoryId">@item.CategoryName</a>
     <a class="btn btn-outline-primary" href="/Categories/Edit/@item.CategoryId">Edit Category</a>
     <a class="btn btn-outline-danger" href="/Categories/Delete/@item.CategoryId">Delete Category</a>
     <br />
