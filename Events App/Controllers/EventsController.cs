@@ -87,7 +87,7 @@ namespace Events_App.Controllers
             }
 
         }
-        public ActionResult Edit(int id)
+        public IActionResult Edit(int id)
         {
             Event ev = db.Events.Include("Category")
                 .Where(sub => sub.EventId == id)
@@ -109,7 +109,7 @@ namespace Events_App.Controllers
 
             if (ModelState.IsValid)
             {
-             
+
                     ev2.Title = ev.Title;
                     ev2.Description = ev.Description;
                     ev2.CategoryId = ev.CategoryId;
