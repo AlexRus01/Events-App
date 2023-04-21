@@ -4,7 +4,7 @@
 
 @foreach (var item in ViewBag.Categories)
 {
-    <br />
+    @*<br />
 
     <a class="btn btn-outline-dark" href="/Categories/Show/@item.CategoryId" style="margin-left: 100px; font-size:50px; border:none">@item.CategoryName</a>
     <br />
@@ -12,7 +12,22 @@
     <a class="btn btn-outline-primary" href="/Categories/Edit/@item.CategoryId" style="margin-left: 200px">Edit Category</a>
     <a class="btn btn-outline-danger" href="/Categories/Delete/@item.CategoryId" style="margin-left:20px">Delete Category</a>
     <br />
+    <br />*@
+
+    <div class="card w-50">
+        <div class="card-body">
+            @*<h5 class="btn" href="/Categories/Show/@item.CategoryId" style="text-align:center; font-size:50px; border:none">@item.CategoryName</h5>*@
+            <a class="btn" href="/Categories/Show/@item.CategoryId" style="margin-left: 260px; font-size:50px;">@item.CategoryName</a>
+            <br />
+            <button type="button" class="btn btn-outline-primary" href="/Categories/Edit/@item.CategoryId" style="margin-left: 180px">Edit Category</button>
+            <button type="button" class="btn btn-outline-danger" href="/Categories/Delete/@item.CategoryId" style="margin-left: 20px">Delete Category</button>
+            <br/>
+            <br/>
+        </div>
+    </div>
     <br />
+    <br />
+
 
 }
 <a class="btn btn-success" href="/Categories/New">Add a new Category</a>
