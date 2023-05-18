@@ -1,7 +1,7 @@
 # Events-App
 **TONIGHT APP**
 
-**[Must Have]{.underline}**:
+## Must Have
 
 -   User registration and login with secure authentication.
 
@@ -11,7 +11,7 @@
 -   Basic information for each event, such as location, start time, and
     description.
 
-**[Should Have]{.underline}**:
+## Should Have
 
 -   Option to save events to a wish list or favorites, for future
     reference.
@@ -24,7 +24,7 @@
 -   Social sharing and invite features, to enable users to share events
     with friends and family.
 
-**[Nice to Have]{.underline}**:
+## Nice to Have
 
 -   Ability to book tickets or reservations for an event, using a secure
     payment gateway.
@@ -38,7 +38,7 @@
 -   User-generated content, such as reviews or ratings, to enable users
     to share their feedback and opinions about events.
 
-**[User stories]{.underline}**:
+## User stories
 
 As a foodie, I want to be able to explore different dinner clubs
 happening tonight in my city, so that I can have a unique culinary
