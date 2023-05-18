@@ -2,7 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+@*<div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <br/>
     <p style="font-family:Serif; font-size:30px">Hello, User! We will help you decide what activity you will enjoy tonight.</p>
@@ -10,7 +10,7 @@
     <p>To start, please press "See categories"</p>
     <br/>
     <a class="btn btn-outline-dark" href="/Categories/Index" style="font-size:50px">See categories</a>
-</div>
+</div>*@
 
 @*<div class="p-5 text-center bg-light">
     <h1 class="mb-3">Welcome</h1>
@@ -18,3 +18,74 @@
     <p class="mb-3">To start, please press "See categories"</p>
     <a class="btn btn-primary" href="/Categories/Index" role="button">See categories</a>
 </div>*@
+
+<!-- Carousel wrapper -->
+
+<style>
+    body {
+        background-color: black;
+    }
+</style>
+<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+        <button type="button"
+                data-mdb-target="#carouselBasicExample"
+                data-mdb-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"></button>
+        <button type="button"
+                data-mdb-target="#carouselBasicExample"
+                data-mdb-slide-to="1"
+                aria-label="Slide 2"></button>
+        <button type="button"
+                data-mdb-target="#carouselBasicExample"
+                data-mdb-slide-to="2"
+                aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Inner -->
+    <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+            <img src="https://rare-gallery.com/uploads/posts/580026-blur-community.jpg" class="d-block w-100" alt="Sunset Over the City">
+            <div class="carousel-caption d-none d-md-block">
+                <a class="btn btn-outline-light" href="/Categories/Index" style="font-size:50px">See categories</a>
+                <p style="font-family:Serif; font-size:30px">Hello, User! We will help you decide what activity you will enjoy tonight.</p>
+                <br />
+                <p>To start, please press "See categories"</p>
+                <br />
+            </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/926/812/34/people-event-india-wallpaper-preview.jpg" class="d-block w-100" alt="Canyon at Nigh" />
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+            <img src="https://c1.wallpaperflare.com/preview/888/4/877/people-music-party-people.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea" />
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Inner -->
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- Carousel wrapper -->

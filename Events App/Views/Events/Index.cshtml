@@ -1,5 +1,12 @@
 ﻿@model Events_App.Models.Event
 
+<style>
+
+    body {
+        background-image: url("https://rare-gallery.com/uploads/posts/580026-blur-community.jpg");
+    }
+</style>
+
 <body>
 
     <head>
@@ -15,7 +22,7 @@
         ViewBag.Title = "Index";
     }
 
-    <h2>Afisare Evenimente</h2>
+    <h2 style="color: white">Afisare Evenimente</h2>
     <br />
     @if (ViewBag.Message != null)
     {
@@ -31,14 +38,14 @@
     {
         <div class="card-body">
 
-            <h3 class="card-title alert-secondary py-3 px-3 rounded-2 text-center">@ev.Title</h3>
+            <h3 class="alert alert-dark py-3 px-3 rounded-2 text-center ">@ev.Title</h3>
 
-            <div class="card-text text-center">  @ev.Description</div>
+            <div class="card-text text-center" style="color: white">  @ev.Description</div>
             <div class="d-flex flex-row justify-content-between p-3 ">
 
-               
-                <span><i class="bi bi-calendar-date"> </i>  @ev.Date</span>
-                <span><i class="bi bi-geo-alt-fill"> </i>  @ev.Location</span>
+
+                <span style="color: white"><i class="bi bi-calendar-date" style="color: white"> </i>  @ev.Date</span>
+                <span style="color: white"><i class="bi bi-geo-alt-fill" style="color: white"> </i>  @ev.Location</span>
                 <a class="btn btn-secondary bi bi-pencil-square" href="/Events/Edit/@ev.EventId">Editeaza eveniment</a>
                 <a class="btn btn-secondary" href="/Events/Show/@ev.EventId">Afisare event</a>
             </div>

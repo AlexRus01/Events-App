@@ -1,18 +1,25 @@
-﻿<h2 style="font-family: 'Times New Roman'; font-weight: bold;">Add a new Category</h2>
+﻿<h2 style="font-family: 'Times New Roman'; font-weight: bold; color:white">Add a new Category</h2>
 <br />
 <br />
 
+<style>
+
+    body {
+        background-image: url("https://rare-gallery.com/uploads/posts/580026-blur-community.jpg");
+    }
+</style>
+
 <form method="post" action="/Categories/New">
-    <label>Category Name</label>
+    <label style="color:white">Category Name</label>
     <br /> <input type="text" name="CategoryName"/>
     <br />
     <br />
 
-    <button class="btn btn-success" type="submit">Add Category</button>
+    <button class="btn btn-secondary" type="submit" style="color:white">Add Category</button>
 
 </form>
 
 
 <br />
 <br />
-<a class="btn btn-outline-primary" href="/Categories/Index">Back to Categories</a>
+<a class="btn btn-secondary" href="/Categories/Index">Back to Categories</a>
