@@ -70,4 +70,4 @@ reservations for a dinner club or cultural event happening tonight, even
 if it\'s already close to the start time, so that I can still make
 spontaneous plans and enjoy my evening.
 
-![My Image](photos/WhatsApp_Image_2023-05-18_at_23.47.14.jpeg)
+![My Image](photos/mds diagrama (1).jpg)
