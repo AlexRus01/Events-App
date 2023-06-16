@@ -1,8 +1,10 @@
 ﻿using Events_App.Data;
 using Events_App.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Data;
 
 namespace Events_App.Controllers
 {
@@ -30,6 +32,7 @@ namespace Events_App.Controllers
         }
 
 
+        [Authorize(Roles = "Editor, Admin")]
         public ActionResult New()
         {
             return View();
@@ -51,6 +54,8 @@ namespace Events_App.Controllers
             }
 
         }
+
+        [Authorize(Roles = "Editor, Admin")]
         public ActionResult Edit(int id)
         {
             Category cat = db.Categories.Find(id);
@@ -58,7 +63,10 @@ namespace Events_App.Controllers
             return View();
         }
 
+
+
         [HttpPost]
+        [Authorize(Roles = "Editor, Admin")]
 
         public ActionResult Edit(int id, Category cat)
         {
@@ -76,6 +84,8 @@ namespace Events_App.Controllers
                 return RedirectToAction("Edit");
             }
         }
+
+        [Authorize(Roles = "Editor, Admin")]
 
         public ActionResult Delete(int id)
         {

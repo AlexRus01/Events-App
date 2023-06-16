@@ -24,11 +24,12 @@ namespace Events_App.Models
 
         public virtual Category? Category { get; set; }
 
-        //public string? UserId { get; set; }
-        //public virtual ApplicationUser? User { get; set; }
         public virtual ICollection<Comment>? Comments { get; set; }
 
         [NotMapped]
         public IEnumerable<SelectListItem>? Categ { get; set; }
+       // public string? UserId { get; set; }
+
+   //     public virtual ApplicationUser? User{ get; set; }
     }
 }

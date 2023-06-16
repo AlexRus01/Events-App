@@ -1,6 +1,7 @@
 ﻿using Events_App.Data;
 using Events_App.Migrations;
 using Events_App.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -13,11 +14,19 @@ namespace Events_App.Controllers
     public class EventsController : Controller
     {
         private readonly ApplicationDbContext db;
-
-        public EventsController(ApplicationDbContext context)
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        public EventsController(
+        ApplicationDbContext context,
+        UserManager<ApplicationUser> userManager,
+        RoleManager<IdentityRole> roleManager
+        )
         {
             db = context;
+            _userManager = userManager;
+            _roleManager = roleManager;
         }
+
 
         public IActionResult Index()
         {
@@ -32,6 +41,7 @@ namespace Events_App.Controllers
                                 .Include("Comments")
                                 .Where(ev => ev.EventId == id)
                                 .First();
+            ViewBag.Comments = ev.Comments;
             return View(ev);
         }
 
@@ -61,6 +71,7 @@ namespace Events_App.Controllers
             }
         }
 
+        [Authorize(Roles = "Editor, Admin")]
         public IActionResult New()
         {
 
@@ -71,6 +82,7 @@ namespace Events_App.Controllers
             return View(cls);
         }
         [HttpPost]
+        [Authorize(Roles = "Editor, Admin")]
 
         public ActionResult New(Event ev)
         {
@@ -87,6 +99,9 @@ namespace Events_App.Controllers
             }
 
         }
+
+        [Authorize(Roles = "Editor, Admin")]
+
         public IActionResult Edit(int id)
         {
             Event ev = db.Events.Include("Category")
@@ -102,6 +117,7 @@ namespace Events_App.Controllers
 
  
         [HttpPost]
+        [Authorize(Roles = "Editor, Admin")]
 
         public ActionResult Edit(int id, Event ev)
         {
@@ -132,6 +148,7 @@ namespace Events_App.Controllers
             
             
         }
+        [Authorize(Roles = "Editor, Admin")]
 
         public ActionResult Delete(int id)
         {

@@ -35,6 +35,24 @@ namespace Events_App.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult New(Comment rev)
+        {
+            rev.Date = DateTime.Now;
+
+            try
+            {
+                db.Comments.Add(rev);
+                db.SaveChanges();
+                return Redirect("/Categories/Show/" + rev.EventId);
+            }
+            catch (Exception)
+            {
+                return Redirect("/Categories/Show/" + rev.EventId);
+            }
+
+        }
+
         public IActionResult Edit(int id)
         {
             Comment comm = db.Comments.Find(id);

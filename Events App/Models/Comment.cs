@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.Identity.Client;
+using System.ComponentModel.DataAnnotations;
 
 namespace Events_App.Models
 {
@@ -16,5 +17,9 @@ namespace Events_App.Models
         //public string? UserId { get; set; }
         //public virtual ApplicationUser? User { get; set; }
         public virtual Event? Event { get; set; }
+
+        public virtual ApplicationUser User { get; set; } 
+        public string? UserId { get; set; }
+
     }
 }
