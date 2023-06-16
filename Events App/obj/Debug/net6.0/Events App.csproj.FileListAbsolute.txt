@@ -559,3 +559,99 @@ C:\Users\Sorana\Documents\facultate\MDS1\Events-App\Events App\obj\Debug\net6.0\
 C:\Users\Sorana\Documents\facultate\MDS1\Events-App\Events App\obj\Debug\net6.0\Events App.pdb
 C:\Users\Sorana\Documents\facultate\MDS1\Events-App\Events App\obj\Debug\net6.0\Events App.genruntimeconfig.cache
 C:\Users\Sorana\Documents\facultate\MDS1\Events-App\Events App\obj\Debug\net6.0\ref\Events App.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\appsettings.Development.json
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\appsettings.json
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Events App.staticwebassets.runtime.json
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Events App.exe
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Events App.deps.json
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Events App.runtimeconfig.json
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Events App.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Events App.pdb
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Azure.Core.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Azure.Identity.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Humanizer.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\System.CodeDom.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\System.Memory.Data.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\System.Text.Json.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\University\PROIECT_MDS\Events App\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.csproj.AssemblyReference.cache
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.AssemblyInfoInputs.cache
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.AssemblyInfo.cs
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.csproj.CoreCompileInputs.cache
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.MvcApplicationPartsAssemblyInfo.cs
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.MvcApplicationPartsAssemblyInfo.cache
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.RazorAssemblyInfo.cache
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.RazorAssemblyInfo.cs
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\staticwebassets\msbuild.Events App.Microsoft.AspNetCore.StaticWebAssets.props
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\staticwebassets\msbuild.build.Events App.props
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Events App.props
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Events App.props
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\staticwebassets.pack.json
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\staticwebassets.build.json
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\staticwebassets.development.json
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\scopedcss\bundle\Events App.styles.css
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\scopedcss\projectbundle\Events App.bundle.scp.css
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.csproj.CopyComplete
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.dll
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\refint\Events App.dll
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.pdb
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\Events App.genruntimeconfig.cache
+D:\University\PROIECT_MDS\Events App\obj\Debug\net6.0\ref\Events App.dll

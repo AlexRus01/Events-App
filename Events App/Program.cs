@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 // test commit Patri 2
 // Test commit alex 2
 var builder = WebApplication.CreateBuilder(args);
-
+//test commit alex 1544
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
