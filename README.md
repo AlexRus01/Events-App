@@ -1,6 +1,19 @@
 # Events-App
 **TONIGHT APP**
 
+  TONIGHT este o aplicatie web care are ca scop usurearea procesului de luare a deciziei privind
+locatia si activitatile pentru o seara de vineri. Aceasta aplicatie ofera o solutie rapida si distractiva
+pentru a gasi evenimente, activitati si restaurante in zona ta, in functie de preferintele si bugetul tau.
+Pentru a utiliza aplicatia, utilizatorii trebuie sa se autentifice in sistem si sa aleaga orasul in care se
+afla. Apoi, aplicatia afiseaza o lista cu toate evenimentele, activitatile si restaurantele disponibile in
+acea seara, impartite pe categorii, inclusiv petreceri, evenimente culturale, entertainment, sporturi,
+restaurante si multe altele. Utilizatorii pot naviga prin lista si pot selecta activitatile care se potrivesc
+cel mai bine cu preferintele lor.
+  Daca utilizatorii sunt indecisi si au mai multe preferinte, aplicatia ofera posibilitatea adaugarii
+evenimentelor preferate in lista de favorite. Aplicatia foloseste o baza de date cu informatii actualizate despre evenimente si locatii din orasul nostru.
+  TONIGHT este o solutie rapida si distractiva pentru a gasi evenimente si
+activitati in zona ta, oferind o varietate de optiuni pentru toate preferintele si bugetele.
+
 ## Must Have
 
 -   User registration and login with secure authentication.
